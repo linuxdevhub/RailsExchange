@@ -1,14 +1,14 @@
 app:
-  name: "Microkube"
-  domain: "app.local"
+  name: "bitcoinmarket"
+  domain: "bitcoinmarket.pro"
   subdomain: "www"
 ssl:
   enabled: true
-  email: "support@example.com"
+  email: "support@bitcoinmarket.pro"
 images:
   peatio: dreadedzombie/peatio:2.1.20
   barong: rubykube/barong:2.0.51
-  frontend: rubykube/mikroapp:0.1.5
+  frontend: bitcoinmarket/ui:latest
   tower: rubykube/tower:0.1.17
   postmaster: quay.io/openware/postmaster:0.0.3
   arke: rubykube/arke:0.1.5
@@ -28,10 +28,10 @@ terraform:
   machine_type: "n1-standard-4"
   image: "debian-cloud/debian-9"
 twilio:
-  phone_number: "+15005550000"
-  account_sid: "changeme"
-  auth_token: "changeme"
-sendgrid_api_key: changeme
+  phone_number: "+12018904539"
+  account_sid: "AC645d48e3baa361bf10337b569477f4d3"
+  auth_token: "0d32411719ec6abbb2ed8e420640337e"
+sendgrid_api_key: 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
 arke:
   strategy:
     type: 'copy'
